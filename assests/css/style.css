@@ -113,6 +113,11 @@ a {
     padding-top: 130px;
 }
 
+.hero-wrap {
+    display: flex;
+    align-items: center;
+}
+
 .hero .info {
     width: 50.4%;
 }
