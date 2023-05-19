@@ -50,7 +50,15 @@ a {
 }
 
 /* Header */
-.header {
+.neo-header {
+    position: sticky;
+    background-color: #E6F0FF;
+    padding-top: 26px;
+    top: -26px;
+    z-index: 1;
+}
+
+.hero-wrap {
     position: relative;
     background-color: #E6F0FF;
     height: 100vh;
@@ -59,7 +67,7 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 47px;
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -96,8 +104,9 @@ a {
 }
 
 /* Hero */
+/* padding-top hoặc display: flex; + flex-direction: column; to solve the problem for neo header */
 .hero {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .hero .info {
